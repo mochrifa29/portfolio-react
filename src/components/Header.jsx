@@ -25,7 +25,7 @@ const Header = () => {
   }, [darkMode]);
 
   return (
-    <header className="w-full bg-white fixed dark:bg-gray-900">
+    <header className="w-full bg-white fixed top-0 dark:bg-gray-900">
       <nav className="max-w-screen-xl mx-auto px-5 md:px-10 h-24 flex justify-between items-center">
         <Logo />
         <div
