@@ -29,7 +29,7 @@ const Contact = () => {
     <div className="w-full py-20 px-10" id='contact'>
       <Title
         title="Contact"
-        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        desc="Contact Me"
       />
       <div className="md:flex gap-10 md:gap-2">
         {CONTACTS.map((contact, i) => (
