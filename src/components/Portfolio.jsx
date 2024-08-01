@@ -36,7 +36,7 @@ const Portfolio = () => {
     <div className="w-full py-20 px-10" id="portfolio">
       <Title
         title="Featured"
-        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        desc="My Project"
       />
       <div className="">
         {PROJECTS.map((project, i) => (

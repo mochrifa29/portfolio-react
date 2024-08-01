@@ -71,10 +71,9 @@ const Skill = () => {
 
   return (
     <div id="service" className="w-full py-20 px-10">
-      ;
       <Title
         title="Skills"
-        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        desc="My Skill"
       />
       <div className="grid grid-cols-1 md:grid-rows-1 gap-7 md:gap-10">
         <Carousel
