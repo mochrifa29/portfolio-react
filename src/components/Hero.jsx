@@ -1,9 +1,6 @@
-import React from 'react'
+import React from "react";
 import Programmer from "../assets/img/Programmer.png";
-import {
-  AiFillInstagram,
-  AiFillLinkedin,
-} from "react-icons/ai";
+import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
 const Hero = () => {
   return (
@@ -13,7 +10,7 @@ const Hero = () => {
     >
       <div className="">
         <h2 className="text-4xl lg:mt-0 mt-4 lg:text-2xl py-2 text-teal-600 font-medium">
-          Rifa Maulana
+          Moch Rifa Maulana N
         </h2>
         <h2 className="text-2xl lg:text-5xl py-2 dark:text-white">
           i'm Software Develover
@@ -28,6 +25,6 @@ const Hero = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Hero
+export default Hero;
